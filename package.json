@@ -2,10 +2,15 @@
   "name": "rxjs-fp-operators",
   "version": "1.0.0-beta.1",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
+    "@types/jest": "^23.3.10",
     "fp-ts": "^1.12.1",
     "jest": "^23.6.0",
     "rxjs": "^6.3.3",
+    "ts-jest": "^23.10.5",
     "typescript": "~3.1.6"
   },
   "peerDependencies": {
